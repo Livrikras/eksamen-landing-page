@@ -146,12 +146,7 @@ h1 {
   height: auto;
 }
 
-.hero::after{
-  content: "";
-  position: absolute;
-  inset: 0; /* dækker hele billedet */
-  background: linear-gradient(to right, #f9c6c6 43%, transparent 100%);
-}
+
 
 .hero-speaker {
     position: absolute;
