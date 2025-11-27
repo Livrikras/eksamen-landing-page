@@ -10,11 +10,11 @@
 
 <body>
    <header>
-    <nav class="navbar"> <!-- start navbar -->
+    <nav id="navbar"> <!-- start navbar -->
         <img class="logo" src="img/lumina-logo.png" alt="LUMINA">
         
-        <div class="right-navbar"> 
-            <div class="dropdown">
+        <div id="right-navbar"> 
+            <div>
                 <ul>
                     <li><a href="#">PRODUKTER</a></li>
                     <li><a href="#">KONTAKT</a></li>
@@ -22,20 +22,22 @@
                 </ul>
             </div>
 
-            <figure class="search-basket"> 
-                    <img class="kurv" src="img/kurv-removebg-preview.png" alt="Kurv">
-                    <div class="topnav">
-                        <input type="text" placeholder="SØG...">
-                    </div>
+            <figure id="search-basket"> 
+                <img class="kurv" src="img/kurv-removebg-preview.png" alt="Kurv">
+                <div class="search">
+                    <input type="text" placeholder="SØG...">
+                </div>
             </figure>
+
         </div> <!-- lukker .right-navbar -->
     </nav> <!-- slut navbar -->
 </header>
 
-<section class="hero"> 
-    <img src="img/hero-section.png" alt="hero">
+<section id="hero"> 
+    <img class="hero-img" src="img/hero-section.png" alt="hero">
+    
     <div class="hero-content">
-        <a href="#" class="btn">KØB NU</a>
+        <a href="#" class="buy-btn">KØB NU</a>
         <h1 class="headline">MERE MUSIK<br>MERE SAMMEN</h1>
         <p class="hero-text">Kvalitets højttaler til 1995 kr.</p>
     </div>
@@ -95,13 +97,13 @@
     <div class="review-1">
         <img src="img/4-stjerner-removebg-preview.png" alt="4 stjerner">
         <p>“Købte LUMINA Audio til min kæreste i årsgave. Hun<br> lytter konstant til musik i hjemmet. Kun gode<br> oplevelser med LUMINA."</p> 
-        <p>MADS JENSEN</p>
+        <p class="name">MADS JENSEN</p>
     </div>
 
     <div class="review-2">
          <img src="img/5-stjerner-removebg-preview.png" alt="5 stjerner">
         <p>“Elsker, elsker, elsker LUMINA Audio - perfekt til<br> hyggeaften med pigerne og generel flot<br> tilføjelse til hjemmet!”</p>
-        <p>MAJA SCHOU</p>
+        <p class="name">MAJA SCHOU</p>
     </div>
 </section>
 
