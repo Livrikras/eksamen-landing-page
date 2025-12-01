@@ -22,9 +22,9 @@
 
 .container {
   width: 100%;
-  max-width: 1200px;     /* maks bredde */
-  margin: 0 auto;        /* centrer */
-  padding: 0 16px;       /* indvendig sideafstand */
+  max-width: 1200px; /* maks bredde */
+  margin: 0 auto; /* centrer */
+  padding: 0 16px; /* indvendig sideafstand */
 }
 
 #navbar {
@@ -72,7 +72,7 @@
 
 .drop-btn {
   color: var(--secondary-color);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   border: none;
   background-color: var(--primary-color);
   font-size: var(--font-size-small);
@@ -123,7 +123,7 @@ input::placeholder {
 
 /* Dropdown menu */
 .dropdown-content {
-   display: none;
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   width: auto;
@@ -145,7 +145,7 @@ input::placeholder {
   display: none;
   position: absolute;
   background-color: #fff8ee;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 10;
   height: auto;
   width: 1550px;
@@ -174,16 +174,19 @@ input::placeholder {
   font-size: var(--font-size-small);
 }
 
-.dropdown-left ul li{
+.dropdown-left ul li {
   display: flex;
   padding: 16px;
   flex-direction: column;
 }
 
-.dropdown-content a:hover {background-color: #fff8ee;}
+.dropdown-content a:hover {
+  background-color: #fff8ee;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
-
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 #search-basket {
   display: flex;
@@ -191,7 +194,7 @@ input::placeholder {
   align-self: center;
 }
 
-#buy-btn{
+#buy-btn {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   padding: 16px 24px;
@@ -204,7 +207,7 @@ input::placeholder {
   top: 40%;
   left: 45%;
   z-index: 3;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* Prøv at lav det i JS istedet */
@@ -235,12 +238,12 @@ h1 {
 }
 
 .headline {
-    position: absolute;
-    justify-content: center;
-    top: 12%;
-    z-index: 2;
-    font-size: var(--font-size-xl);
-    width: 100%; /* ensure it can center comfortably, helps on smaller screens */
+  position: absolute;
+  justify-content: center;
+  top: 12%;
+  z-index: 2;
+  font-size: var(--font-size-xl);
+  width: 100%; /* ensure it can center comfortably, helps on smaller screens */
 }
 
 .hero-text {
@@ -266,7 +269,7 @@ h1 {
   padding: 40px;
 }
 
-#green-speaker img{
+#green-speaker img {
   display: block;
   width: auto;
   height: 500px;
@@ -277,7 +280,7 @@ h1 {
   padding-right: 72px;
 }
 
-#purple-speaker img{
+#purple-speaker img {
   display: block;
   width: auto;
   height: 500px;
@@ -341,20 +344,19 @@ h1 {
   gap: 2rem;
   position: relative;
   overflow: hidden;
-  
 }
 
 #egenskaber-tekst {
-    display: flex;
-    flex-direction: column;
-    gap: 6rem;
-    align-items: center;
-    justify-content: center;
-    z-index: 5;
-    width: auto;
-    height: auto;
-    position: relative;
-    right: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  width: auto;
+  height: auto;
+  position: relative;
+  right: 350px;
 }
 
 #egenskaber-tekst img {
@@ -362,16 +364,14 @@ h1 {
   width: 100px;
   margin-bottom: 8px;
   padding-left: 64px;
-  
-}   
-
-#egenskaber-tekst p {
-    font-size: var(--font-size-small);
-    text-align: center;
-    color: var(--primary-color);
-    line-height: 1.5;
 }
 
+#egenskaber-tekst p {
+  font-size: var(--font-size-small);
+  text-align: center;
+  color: var(--primary-color);
+  line-height: 1.5;
+}
 
 /* ---------------------------------------------- */
 /* ---------------------sec-3-------------------- */
@@ -383,7 +383,6 @@ h1 {
   margin-top: 64px;
   padding: 32px;
   gap: 56px;
- 
 }
 
 #sec-3 img {
@@ -421,10 +420,10 @@ h1 {
 }
 
 .reviews {
-    flex-direction: row;
-    display: flex;
-    gap: 198px;
-    padding-left: 100px;
+  flex-direction: row;
+  display: flex;
+  gap: 198px;
+  padding-left: 100px;
 }
 
 .review-1 {
@@ -442,9 +441,9 @@ h1 {
 }
 
 .name {
-    font-size: var(--font-size-small);
-    font-weight: bold;
-    padding-top: 16px;
+  font-size: var(--font-size-small);
+  font-weight: bold;
+  padding-top: 16px;
 }
 
 /* ---------------------------------------------- */
@@ -462,20 +461,20 @@ footer {
 }
 
 footer p {
-    font-size: var(--font-size-x-small);
-    padding-bottom: 16px;
+  font-size: var(--font-size-x-small);
+  padding-bottom: 16px;
 }
 
 footer h5 {
-    font-size: var(--font-size-x-small);
-    font-weight: bold;
-    padding-bottom: 24px;
+  font-size: var(--font-size-x-small);
+  font-weight: bold;
+  padding-bottom: 24px;
 }
 
 footer h6 {
-    font-size: var(--font-size-x-small);
-    color: var(--primary-color);
-    padding-bottom: 16px;
+  font-size: var(--font-size-x-small);
+  color: var(--primary-color);
+  padding-bottom: 16px;
 }
 
 .mail input[type="text"] {
@@ -510,22 +509,21 @@ footer input::placeholder {
 }
 
 #social-media {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
-
 #up-btn {
-    height: 50px;
-    width: 50px;
-    border: none;
-    border-radius: 50px;
-    background-color: #f6e2df;
-    color: var(--third-color);
-    cursor: pointer;
-    font-size: var(--font-size-medium);
-    font-weight: bold;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 50px;
+  background-color: #f6e2df;
+  color: var(--third-color);
+  cursor: pointer;
+  font-size: var(--font-size-medium);
+  font-weight: bold;
 }
 
 /* ---------------------------------------------- */
@@ -544,7 +542,7 @@ footer input::placeholder {
   margin-top: 128px;
   padding-bottom: 176px;
   padding-top: 176px;
-} 
+}
 
 .sec5-right {
   gap: 16px;
@@ -558,7 +556,7 @@ footer input::placeholder {
 }
 
 .sec5-img {
-  height:500px;
+  height: 500px;
   width: auto;
 }
 
@@ -572,29 +570,25 @@ footer input::placeholder {
   font-size: var(--font-size-small);
   line-height: 1.5;
   padding-top: 24px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #sec-5 .p1 {
   padding-bottom: 24px;
 }
 
-
 /* ---------------------------------------------- */
 /* -------------------Animate-------------------- */
 .scale {
-	  transform: scale(1.05);
-    transition: transform 0.3s ease-in-out; 
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
 
-
-
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
-
 
 @media (min-width: 360px) and (max-width: 768px) {
-
   /* --------Header/Nav-------- */
   header {
     padding: 12px;
@@ -602,16 +596,21 @@ footer input::placeholder {
 
   #navbar .logo {
     /* Gør logoet mindre */
-    width: 140px; 
+    width: 140px;
   }
-    /* lille mellemrum i menuen */
-  #right-navbar  {
-      gap: 6px;
+  /* lille mellemrum i menuen */
+  #right-navbar {
+    gap: 6px;
   }
 
   #right-navbar ul li {
-    padding: 10px 8px; 
+    padding: 10px 8px;
     font-size: 16px;
+  }
+
+  /* Fjerner menuen - kunne ellers ikke få navbaren til at følge størrelsen af skærmen */
+  #right-navbar .container {
+    display: none;
   }
 
   /* --------Hero-------- */
@@ -654,19 +653,19 @@ footer input::placeholder {
     display: block;
   }
 
-   #sec-1 .scroll-sec1 #purple-speaker img {
+  #sec-1 .scroll-sec1 #purple-speaker img {
     width: auto;
     height: 200px;
     display: block;
   }
 
-   #sec-1 .scroll-sec1 #white-speaker img {
+  #sec-1 .scroll-sec1 #white-speaker img {
     width: auto;
     height: 200px;
     display: block;
   }
 
-   #sec-1 .scroll-sec1 #rosa-speaker img {
+  #sec-1 .scroll-sec1 #rosa-speaker img {
     width: auto;
     height: 200px;
     display: block;
@@ -677,7 +676,7 @@ footer input::placeholder {
 
   /* --------section 3-------- */
   #sec-3 {
-    padding: 16px 12px; 
+    padding: 16px 12px;
   }
 
   #sec-3 .scroll {
@@ -688,4 +687,86 @@ footer input::placeholder {
     width: auto;
     height: 340px;
   }
+
+
+/* --------section 4-------- */
+.reviews {
+  display: block;
+  gap: 12px;
+  padding-left: 0px;
+}
+
+/* Make section 2 features horizontal on wider screens */
+@media (min-width: 769px) {
+  #egenskaber-tekst {
+    flex-direction: row; /* horizontal layout for features */
+    gap: 3rem;           /* less huge gap on desktop */
+    align-items: center; /* center vertically */
+    right: 0;            /* remove large offset */
+  }
+
+  /* place icons left of text, reduce left padding */
+  #egenskaber-tekst img {
+    padding-left: 0;
+    margin-right: 12px;
+  }
+}
+
+.review-1 .review-2 {
+  font-size: var(--font-size-small);
+  margin-top: 24px;
+}
+
+/* fjerner hjertet */
+.heart {
+  display: none;
+}
+
+/* --------section 5-------- */
+#sec-5 {
+  flex-direction: column;
+  padding: 32px 16px;
+  height: auto;
+  gap: 32px;
+}
+
+/* --------footer-------- */
+footer {
+  display: block;
+  padding: 24px 12px;
+  gap: 12px;
+  width: auto;
+  height: 950px;
+}
+
+.mail input[type="text"]{
+  width: 100%;
+  max-width: none;
+}
+
+#up-btn {
+  position: sticky;
+  left: 1200px;
+  bottom: 12px;
+  z-index: 9999;
+  width: 44px;
+  height: 44px;
+  font-size: 20px;
+}
+
+#support {
+ font-size: var(--font-size-x-small);
+ padding-top: 48px;
+}
+
+#info {
+  font-size: var(--font-size-x-small);
+  padding-top: 48px;
+}
+
+#social-media {
+  font-size: var(--font-size-x-small);
+  padding-top: 48px; 
+}
+
 }
