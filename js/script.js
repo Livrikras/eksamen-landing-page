@@ -57,30 +57,6 @@ rosaSpeaker.addEventListener("mouseout", function () {
 
 
 // -----------------------------------------------
-// ------------------sec-3------------------------
-
-// const section3 = document.getElementById("sec-3");
-
-// // Window tager fat om browservinduet og gør noget ved
-// window.onscroll = () => {
-//   section3.forEach((sec) => {
-//     // Får nuværende scrollposition
-//     let scrollDistance = window.scrollY;
-
-//     // Får sektionens position ift. toppen af dokumentet
-//     let secDistance = sec.offsetTop;
-
-//     // Hvis sektionen er kommet ind i synsfeltet, så tilføjes "show animate", eller fjernes den
-//     if (scrollDistance >= secDistance) {
-//       sec.classList.add("move");
-//     } else {
-//       sec.classList.remove("move");
-//     }
-//   });
-// };
-
-
-// -----------------------------------------------
 // ------------------Footter----------------------
 const upButton = document.getElementById("up-btn");
 

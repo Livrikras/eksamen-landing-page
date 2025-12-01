@@ -344,6 +344,7 @@ h1 {
   gap: 2rem;
   position: relative;
   overflow: hidden;
+  z-index: -5;
 }
 
 #egenskaber-tekst {
@@ -356,7 +357,7 @@ h1 {
   width: auto;
   height: auto;
   position: relative;
-  right: 350px;
+  right: 650px;
 }
 
 #egenskaber-tekst img {
@@ -373,6 +374,17 @@ h1 {
   line-height: 1.5;
 }
 
+#sec-2 .sec2-img {
+  height: 700px;
+  width: auto;
+}
+
+#sec-2 .logo-bg {
+  height: 700px;
+  width: auto;
+  z-index: -2;
+}
+
 /* ---------------------------------------------- */
 /* ---------------------sec-3-------------------- */
 #sec-3 {
@@ -382,7 +394,6 @@ h1 {
   justify-content: space-around;
   margin-top: 64px;
   padding: 32px;
-  gap: 56px;
 }
 
 #sec-3 img {
