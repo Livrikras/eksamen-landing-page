@@ -743,6 +743,7 @@ footer input::placeholder {
   /* --------section 3-------- */
   #sec-3 {
     padding: 16px 12px;
+    height: 400px;
   }
 
   #sec-3 .scroll {
@@ -779,6 +780,12 @@ footer input::placeholder {
   height: auto;
   gap: 32px;
 }
+
+.sec5-img {
+  width: auto;
+  height: 300px;
+}
+
 
 /* --------footer-------- */
 footer {
