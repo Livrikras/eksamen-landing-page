@@ -78,14 +78,7 @@ rosaSpeaker.addEventListener("mouseout", function () {
 //   });
 // };
 
-const container = document.querySelector("#sec-1 .scroll-sec1");
 
-container.querySelectorAll(".speaker").forEach((item) => {
-  item.addEventListener("mouseenter", () => {
-    // Gør item centralt i container scroll
-   
-  });
-});
 // -----------------------------------------------
 // ------------------Footter----------------------
 const upButton = document.getElementById("up-btn");
