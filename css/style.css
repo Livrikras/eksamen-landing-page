@@ -148,11 +148,11 @@ input::placeholder {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 10;
   height: auto;
-  width: 1530px;
+  width: 1550px;
   left: -415%;
   opacity: 0.95;
-  padding: 36px;
-  
+  padding: 48px;
+  padding-left: 64px;
 }
 
 .dropdown-content a {
@@ -263,6 +263,7 @@ h1 {
   text-align: center;
   padding: 32px;
   padding-bottom: 48px;
+  padding: 40px;
 }
 
 #green-speaker img{
@@ -321,6 +322,7 @@ h1 {
   overflow: auto;
   white-space: nowrap;
   display: flex;
+  height: 650px;
 }
 
 #sec-1 .scroll-sec1 img {
@@ -374,7 +376,7 @@ h1 {
 /* ---------------------------------------------- */
 /* ---------------------sec-3-------------------- */
 #sec-3 {
-  height: 800px;
+  height: 700px;
   width: auto;
   display: flex;
   justify-content: space-around;
@@ -518,7 +520,7 @@ footer input::placeholder {
     width: 50px;
     border: none;
     border-radius: 50px;
-    background-color: pink;
+    background-color: #f6e2df;
     color: var(--third-color);
     cursor: pointer;
     font-size: var(--font-size-medium);
