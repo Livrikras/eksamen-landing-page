@@ -383,6 +383,7 @@ h1 {
   margin-top: 64px;
   padding: 32px;
   gap: 56px;
+ 
 }
 
 #sec-3 img {
@@ -586,95 +587,105 @@ footer input::placeholder {
     transition: transform 0.3s ease-in-out; 
 }
 
+
+
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
 
-/* @media (max-width: 768px) {
-  /* Make sure the hero headline scales and remains centered on smaller screens */
-  /* .headline {
-    font-size: var(--font-size-hero-mobile);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0 1rem;
+
+@media (min-width: 360px) and (max-width: 768px) {
+
+  /* --------Header/Nav-------- */
+  header {
+    padding: 12px;
   }
-} */ 
 
-/* @media (max-width: 768px) {
+  #navbar .logo {
+    /* Gør logoet mindre */
+    width: 140px; 
+  }
+    /* lille mellemrum i menuen */
+  #right-navbar  {
+      gap: 6px;
+  }
 
-    header {
-        padding: 20px;
-    }
+  #right-navbar ul li {
+    padding: 10px 8px; 
+    font-size: 16px;
+  }
 
-    header .headline {
-        font-size: var(--font-size-xl)
-    }
+  /* --------Hero-------- */
+  /* laver hero overskriften mindre på telefon */
+  .headline {
+    font-size: 1.6rem;
+  }
 
-    header label {
-        display: block;
-    }
+  #buy-btn {
+    padding: 10px 18px;
+    font-size: 16px;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 
-    header .right-navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: var(--primary-color);
-        border-top: 1px solid var(--secondary-color);
-        display: none;
-    }
-    
-    header .right-navbar ul {
-        flex-direction: column;
-        align-items: stretch;
-    }
+  .hero-content p {
+    font-size: var(--font-size-x-small);
+    padding-top: 24px;
+  }
 
-    header .right-navbar ul li {
-        width: 100%;
-        margin: 0;
-    }
+  /* --------Sektion 1-------- */
+  /* horizontal scroller - laver den smallere og tryk-venlig */
+  #sec-1 {
+    padding: 18px 12px;
+    gap: 16px;
+  }
 
-    header .right-navbar ul li a {
-        font-size: var(--font-size-small);
-        padding: 20px;
-        border-bottom: 1px solid var(--fourth-color);
-        text-align: left;
-    }
+  #sec-1 .scroll-sec1 {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    height: auto;
+  }
 
-    figure {
-        padding: 10px 20px;
-        font-size: var(--font-size-small);
-    }
+  /* laver billederne mindre på telefonen */
+  #sec-1 .scroll-sec1 #green-speaker img {
+    width: auto;
+    height: 200px;
+    display: block;
+  }
 
-    #menu-bar:checked ~ .right-navbar {
-        display: block;
-        font-size: var(--font-size-small);
-    }
+   #sec-1 .scroll-sec1 #purple-speaker img {
+    width: auto;
+    height: 200px;
+    display: block;
+  }
 
-    .hero {
-        margin-top: 70px;
-        height: 80vh;
-    }
+   #sec-1 .scroll-sec1 #white-speaker img {
+    width: auto;
+    height: 200px;
+    display: block;
+  }
 
-    .hero-speaker {
-        margin-top: 70px;
-        height: 80vh;
-    }
+   #sec-1 .scroll-sec1 #rosa-speaker img {
+    width: auto;
+    height: 200px;
+    display: block;
+  }
 
-    .hero-content h1 {
-        font-size: var(--font-size-hero-mobile);
-        padding: 0 20px;
-    }
-
-    .hero-content a {
-        font-size: var(--font-size-small);
-        padding: 0 20px;
-    }
+  /* --------section 2-------- */
  
 
-    .hero-content p {
-        font-size: var(--font-size-small);
-        padding:0 20px;
-    }
+  /* --------section 3-------- */
+  #sec-3 {
+    padding: 16px 12px; 
+  }
 
-} */
+  #sec-3 .scroll {
+    gap: 12px;
+  }
+
+  #sec-3 img {
+    width: auto;
+    height: 340px;
+  }
+}
