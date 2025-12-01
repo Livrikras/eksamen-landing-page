@@ -55,6 +55,7 @@ rosaSpeaker.addEventListener("mouseout", function () {
   this.classList.remove("scale");
 });
 
+
 // -----------------------------------------------
 // ------------------sec-3------------------------
 
