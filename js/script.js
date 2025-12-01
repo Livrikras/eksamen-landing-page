@@ -10,6 +10,15 @@ buyButton.addEventListener("click", () => {
   });
 });
 
+buyButton.addEventListener("mouseover", () => {
+  buyButton.style.backgroundColor = "#884c59";
+});
+
+buyButton.addEventListener("mouseout", () => {
+  buyButton.style.backgroundColor = "#683f21";
+});
+
+
 // -----------------------------------------------
 // ------------------sec1-------------------------
 const greenSpeaker = document.getElementById("g-speaker");

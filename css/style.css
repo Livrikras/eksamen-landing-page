@@ -210,10 +210,6 @@ input::placeholder {
   font-family: "Times New Roman", Times, serif;
 }
 
-/* Prøv at lav det i JS istedet */
-#buy-btn:hover {
-  background-color: var(--third-color);
-}
 
 h1 {
   font-size: var(--font-size-xl);
