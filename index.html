@@ -16,7 +16,7 @@
         <div id="right-navbar"> 
             <div class="container">
                 <ul>
-                    <div class="dropdown">
+                    <li class="dropdown">
                         <button class="drop-btn">PRODUKTER</button>
                         <div class="dropdown-content">
                             <h4>HØJTTALERE</h4>
@@ -30,14 +30,14 @@
                                 <li><a href="#"></a>TILBEHØR</li>
                             </ul>
                         </div>
-                    </div>
+                    </li>
                     <li><a href="#">KONTAKT</a></li>
                     <li><a href="#">OM OS</a></li>
                 </ul>
             </div>
 
             <figure id="search-basket"> 
-                <img class="kurv" src="img/kurv-removebg-preview.png" alt="Kurv">
+                <img class="kurv" src="img/kurv-removebg-preview.png" alt="Kurv">  
                 <div class="search">
                     <input type="text" placeholder="SØG...">
                 </div>
@@ -51,7 +51,8 @@
     <img class="hero-img" src="img/hero-section.png" alt="hero">
     
     <div class="hero-content">
-        <a class="buy-btn" href="#sec-1">KØB NU</a>
+
+        <button id="buy-btn">KØB NU</button>
         <h1 class="headline">MERE MUSIK<br>MERE SAMMEN</h1>
         <p class="hero-text">Kvalitets højttaler til 1995 kr.</p>
     </div>
@@ -61,24 +62,26 @@
 <main>
     
     <section id="sec-1">
-        <div id="green-speaker">
-            <img src="img/green-speaker.png" alt="green speaker">
-            <p>SAGE GREEN <br> 1995 KR.</p>
-        </div>
-        
-        <div id="purple-speaker">
-            <img src="img/purple-speaker.png" alt="lilla speaker">
-            <p>LAVENDER MIST <br> 1995 KR.</p>
-        </div>
+        <div class="scroll-sec1">
+            <div id="green-speaker">
+                <img id="g-speaker" src="img/green-speaker.png" alt="green speaker">
+                <p>SAGE GREEN <br> 1995 KR.</p>
+            </div>
             
-        <div id="white-speaker">
-            <img src="img/white-speaker.png" alt="hvid speaker">
-            <p>MIDNIGHT WHITE <br> 1995 KR.</p>
-        </div>
-            
-        <div id="rosa-speaker">
-            <img src="img/rosa-speaker.png" alt="rosa speaker">
-            <p>DUSTY ROSE <br> 1995 KR.</p>
+            <div id="purple-speaker">
+                <img id="p-speaker" src="img/purple-speaker.png" alt="lilla speaker">
+                <p>LAVENDER MIST <br> 1995 KR.</p>
+            </div>
+                
+            <div id="white-speaker">
+                <img id="w-speaker" src="img/white-speaker.png" alt="hvid speaker">
+                <p>MIDNIGHT WHITE <br> 1995 KR.</p>
+            </div>
+                
+            <div id="rosa-speaker">
+                <img id="r-speaker" src="img/rosa-speaker.png" alt="rosa speaker">
+                <p>DUSTY ROSE <br> 1995 KR.</p>
+            </div>
         </div>
 
     </section>
@@ -107,12 +110,14 @@
 
 
 <section id="sec-3">
-    <img src="img/billede-2.png" alt="insta vindruer">
-    <img src="img/billede-3.png" alt="insta billede piger">
-    <img src="img/billede-4.png" alt="insta billede regn">
-    <!-- <img src="img/insta-1.png" alt="insta billede højttaler">
-    <img src="img/insta-4.png" alt="insta billede venner">
-    <img src="img/insta-3.png" alt="insta billede picnic"> -->
+    <div class="scroll">
+        <img src="img/billede-2.png" alt="insta vindruer">
+        <img src="img/billede-3.png" alt="insta billede piger">
+        <img src="img/billede-4.png" alt="insta billede regn">
+        <img src="img/insta-1.png" alt="insta billede højttaler">
+        <img src="img/insta-4.png" alt="insta billede venner">
+        <img src="img/insta-3.png" alt="insta billede picnic">
+    </div>
 </section>
 
 <section id="sec-4">
@@ -133,6 +138,17 @@
             <p>“Elsker, elsker, elsker LUMINA Audio - perfekt til<br> hyggeaften med pigerne og generel flot<br> tilføjelse til hjemmet!”</p>
             <p class="name">MAJA SCHOU</p>
         </div>
+    </div>
+</section>
+
+<section id="sec-5">
+    <img class="sec5-img" src="gif/plade.gif" alt="plade">
+    <div class="sec5-right">
+        <h2>Social Connect</h2>
+        <hr>
+        <p class="p1">Gør dine fester endnu bedre!</p>
+        <p>Med Social Connect kan du nemt mixe din playliste med vennernes direkte i appen. </p>
+        <img src="img/app.png" alt="app">
     </div>
 </section>
 
