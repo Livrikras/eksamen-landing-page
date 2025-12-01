@@ -613,6 +613,12 @@ footer input::placeholder {
     display: none;
   }
 
+  #navbar {
+    padding: 4px;
+    gap: 8px;
+    align-items: center;
+  }
+
   /* --------Hero-------- */
   /* laver hero overskriften mindre på telefon */
   .headline {
@@ -672,7 +678,67 @@ footer input::placeholder {
   }
 
   /* --------section 2-------- */
- 
+  #sec-2 .sec2-img {
+    width: 400px;
+    height: 500px;
+    max-width: 480px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  #sec-2 .logo-bg {
+    display: none;
+  }
+
+  #egenskaber-tekst {
+    position: static;
+    right: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px 0;
+  }
+
+  #egenskaber-tekst .vand-ikon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    width: auto;
+    height: 40px;
+  }
+
+  #egenskaber-tekst .shuffel-ikon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    width: auto;
+    height: 40px;
+  }
+
+  #egenskaber-tekst .batteri-ikon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 6px;
+    width: auto;
+    height: 40px;
+  }
+
+
+  #egenskaber-tekst p {
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    z-index: 5;
+    flex-direction: column;
+  }
+
 
   /* --------section 3-------- */
   #sec-3 {
@@ -694,22 +760,6 @@ footer input::placeholder {
   display: block;
   gap: 12px;
   padding-left: 0px;
-}
-
-/* Make section 2 features horizontal on wider screens */
-@media (min-width: 769px) {
-  #egenskaber-tekst {
-    flex-direction: row; /* horizontal layout for features */
-    gap: 3rem;           /* less huge gap on desktop */
-    align-items: center; /* center vertically */
-    right: 0;            /* remove large offset */
-  }
-
-  /* place icons left of text, reduce left padding */
-  #egenskaber-tekst img {
-    padding-left: 0;
-    margin-right: 12px;
-  }
 }
 
 .review-1 .review-2 {
