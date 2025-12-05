@@ -317,6 +317,7 @@ h1 {
   align-items: center;
 }
 
+/* Scroll */
 #sec-1 {
   overflow: auto;
   white-space: nowrap;
