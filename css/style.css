@@ -393,6 +393,7 @@ h1 {
   padding: 32px;
 }
 
+/* Scroll */
 #sec-3 {
   overflow: auto;
   white-space: nowrap;
