@@ -317,14 +317,14 @@ h1 {
   align-items: center;
 }
 
-#sec-1 .scroll-sec1 {
+#sec-1 {
   overflow: auto;
   white-space: nowrap;
   display: flex;
   height: 650px;
 }
 
-#sec-1 .scroll-sec1 img {
+#sec-1 img {
   display: inline-block;
   color: white;
   text-align: center;
@@ -392,21 +392,18 @@ h1 {
   padding: 32px;
 }
 
-#sec-3 img {
-  height: 625px;
-  width: 500px;
-}
-
-.scroll {
+#sec-3 {
   overflow: auto;
   white-space: nowrap;
 }
 
-.scroll img {
+#sec-3 img {
   display: inline-block;
   color: white;
   text-align: center;
   padding: 14px;
+  height: 625px;
+  width: 500px;
 }
 
 
