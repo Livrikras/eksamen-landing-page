@@ -1,6 +1,7 @@
 "use strict";
 
 // ----------------------hero---------------------
+//const = man må ikke kalde denne specifikke const igen
 const buyButton = document.getElementById("buy-btn");
 
 buyButton.addEventListener("click", () => {
@@ -23,6 +24,8 @@ buyButton.addEventListener("mouseout", () => {
 // ------------------sec1-------------------------
 const greenSpeaker = document.getElementById("g-speaker");
 
+// "this" gør at jeg ikke må bruge ()=> men skal bruge function() istedet
+// this.classList.add tilføjer klassen "scale" og bruger den hver gang musen holder over billedet
 greenSpeaker.addEventListener("mouseover", function() {
   this.classList.add("scale");
 });
