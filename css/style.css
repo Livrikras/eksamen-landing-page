@@ -322,7 +322,8 @@ h1 {
   overflow: auto;
   white-space: nowrap;
   display: flex;
-  height: 650px;
+  height: 700px;
+  padding-bottom: 54px;
 }
 
 #sec-1 img {
